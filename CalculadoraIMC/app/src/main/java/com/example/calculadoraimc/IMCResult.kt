@@ -1,4 +1,5 @@
 package com.example.calculadoraimc
 
-class IMCResult {
-}
+data class IMCResult(
+    val result: Result
+)

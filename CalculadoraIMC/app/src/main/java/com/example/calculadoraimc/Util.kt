@@ -31,19 +31,3 @@ internal fun getImcResult(pesoTxt: String, alturaTxt: String): IMCResult {
 // METODO QUE VERIFICA SE OS VALORES SAO VAZIOS
 private fun verificaPesoAlturaVazio(peso: String, altura: String) =
     peso.isEmpty() || altura.isEmpty()
-
-// CLASSE DE DADOS
-data class IMCResult(val result: Result)
-
-// CLASSE DE NUMERADORES COM UMA MENSAGEM JÁ DEFINIDA
-enum class Result(val label: String) {
-    MAGREZA_III("Magreza grave"),
-    MAGREZA_II("Magreza moderada"),
-    MAGREZA_I("Magreza leve"),
-    OK("Saudável"),
-    SOBREPESO("Sobrepeso"),
-    OBESIDADE_I("Obesidade Grau I"),
-    OBESIDADE_II("Obesidade Grau II (severa)"),
-    OBESIDADE_III("Obesidade Grau III (mórbida)"),
-    BLANK("Insira os valores de altura e peso corretamente")
-}
