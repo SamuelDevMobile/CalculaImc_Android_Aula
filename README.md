@@ -39,4 +39,5 @@ Certifique-se de que seu dispositivo tenha a versão Android >= 21.
 
 ## Tela Principal
 > Calcula seu IMC.
+
 ![image](https://user-images.githubusercontent.com/26841238/199861127-ea42d195-9024-4aa6-9e6f-c0fddfac44ee.png)
