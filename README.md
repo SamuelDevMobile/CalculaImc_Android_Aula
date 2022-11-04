@@ -1,7 +1,7 @@
 # Calcula IMC
 
 ## Introdução
-Projeto para fins didáticos, com uma pequena implementação de uma calculadora que calcula sem IMC (Indice de Massa Corporal).
+Projeto para fins didáticos, com uma pequena implementação de uma calculadora que calcula o seu IMC (Indice de Massa Corporal).
 
 ## Configuração do projeto
 Ele pode ser baixado conforme abaixo:
