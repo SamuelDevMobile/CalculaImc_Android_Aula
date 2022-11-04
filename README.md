@@ -14,9 +14,6 @@ Abra-o no seu Android Studio
 Execute o projeto no seguinte icone.
 <img width="24" alt="Captura de Tela 2022-08-18 às 16 50 33" src="https://user-images.githubusercontent.com/26841238/185482305-56a82404-d54c-4590-a658-b855461eb1d2.png">
 
-## Visão geral da arquitetura
-Nenhum :).
-
 ## Fluxo de trabalho de Controle de Versão
 Usamos vagamente a abordagem "Git flow": master é a versão
 branch - deve ser sempre liberável e apenas mesclado em
