@@ -13,9 +13,13 @@ class MainActivity : AppCompatActivity() {
             val pesoTxt = edt_peso.text.toString()
             val alturaTxt = edt_altura.text.toString()
 
-            val imcResult = getImcResult(pesoTxt, alturaTxt)
+            if (pesoTxt.isEmpty() || alturaTxt.isEmpty()){
+                txt_result_imc.text = getString(R.string.resultBlank)
+            } else {
+                val imcResult = getImcResult(pesoTxt, alturaTxt)
+                txt_result_imc.text = imcResult.result.label
+            }
 
-            txt_result_imc.text = imcResult.result.label
         }
     }
 }

@@ -3,4 +3,5 @@
     <string name="peso">Peso</string>
     <string name="altura">Altura</string>
     <string name="calcular">Calcular</string>
+    <string name="resultBlank">Insira os valores de altura e peso corretamente</string>
 </resources>

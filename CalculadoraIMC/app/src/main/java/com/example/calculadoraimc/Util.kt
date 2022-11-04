@@ -28,5 +28,6 @@ enum class Result(val label: String) {
     SOBREPESO("Sobrepeso"),
     OBESIDADE_I("Obesidade Grau I"),
     OBESIDADE_II("Obesidade Grau II (severa)"),
-    OBESIDADE_III("Obesidade Grau III (mórbida)")
+    OBESIDADE_III("Obesidade Grau III (mórbida)"),
+    BLANK("Insira os valores de altura e peso corretamente")
 }
