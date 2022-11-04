@@ -15,7 +15,7 @@ Execute o projeto no seguinte icone.
 <img width="24" alt="Captura de Tela 2022-08-18 às 16 50 33" src="https://user-images.githubusercontent.com/26841238/185482305-56a82404-d54c-4590-a658-b855461eb1d2.png">
 
 ## Visão geral da arquitetura
-Foi usado Data Class, Enum Class, testes unitarios e testes com Expresso
+Foi usado Data Class, Enum Class, testes unitarios e testes instrumentados com Expresso
 
 ## Fluxo de trabalho de Controle de Versão
 Usamos vagamente a abordagem "Git flow": master é a versão
@@ -38,6 +38,6 @@ Certifique-se de que seu dispositivo tenha a versão Android >= 21.
 ```
 
 ## Tela Principal
-> Tela responsável para calcular sem IMC.
+> Tela responsável para calcular o IMC.
 
 ![image](https://user-images.githubusercontent.com/26841238/199861127-ea42d195-9024-4aa6-9e6f-c0fddfac44ee.png)
