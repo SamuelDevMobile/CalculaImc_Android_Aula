@@ -23,7 +23,7 @@ class MainActivityTest {
     val activityRule = ActivityTestRule(MainActivity::class.java)
 
     @Test
-    fun `testa_CliqueButton_ExibeMensagemSaudavel`(){
+    fun `testa_CliqueButton_ExibeMensagemSaudavel`() {
         onView(withId(R.id.edt_peso))
             .perform(typeText("67"))
         onView(withId(R.id.edt_altura))
@@ -35,7 +35,7 @@ class MainActivityTest {
     }
 
     @Test
-    fun `testa_CliqueButton_ExibeMensagemError`(){
+    fun `testa_CliqueButton_ExibeMensagemError`() {
         onView(withId(R.id.btn_make_calc))
             .perform(click())
         onView(withText("Insira os valores de altura e peso corretamente"))
