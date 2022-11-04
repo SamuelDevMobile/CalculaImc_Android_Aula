@@ -15,5 +15,8 @@ class UtilTest {
     fun testGetImcResult_aviso_embranco() {
         val semPeso = getImcResult("", "1.76")
         assertEquals(semPeso.result, Result.BLANK)
+
+        val semAltura = getImcResult("67", "")
+        assertEquals(semAltura.result, Result.BLANK)
     }
 }
